@@ -1,0 +1,63 @@
+<html>
+
+<head>
+  <title>yrdystg</title>
+   <link rel="stylesheet" href="pass.css">
+</head>
+<script src="https://kit.fontawesome.com/e2bce648c2.js" crossorigin="hurphygames"></script> 
+
+<body>
+
+  <div class="container">
+    <h1>Javascript Password Generator</h1>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsa dolorem eaque rem porro ipsum omnis sed
+      molestiae nostrum neque.</h3>
+   <div class="input-container">
+    <input class="pass" type="text" placeholder="Password Generator">
+    <div class="copy-restart-container">
+      <div class="copy-btn"><i class="fa-regular fa-copy"></i></div>
+      <div class="restart-btn"><i class="fa-solid fa-arrows-rotate"></i></div>
+      
+    </div>
+   </div>
+     <span class="pass-text"></span>
+    <div class="customize-container">
+      <h2>Customize Your Password</h2>
+      <div class="customize">
+        <div class="input-range">
+          <input class="number" type="number"  min="1" max="18" value="13">
+          <input class="range" type="range" min="1" max="18">
+         
+        </div>
+        <div class="input-radio">
+
+          <div class="lp-checkbox">
+           
+            <div class="lp-radio" >
+              <input  name="cbox" id="Uppercase" checked class="1 checkbox" type="checkbox">
+              <label aria-valuetext="checked" class="cboxlabel" for="Uppercase">Uppercase</label>
+            </div>
+            <div class="lp-radio">
+              <input  name="cbox" id="Lowercase" checked class="2 checkbox" type="checkbox">
+              <label aria-valuetext="checked" class="cboxlabel"  for="Lowercase">Lowercase</label>
+            </div>
+            <div class="lp-radio">
+              <input  name="cbox" id="Numbers" checked class="3 checkbox" type="checkbox">
+              <label aria-valuetext="checked" class="cboxlabel" for="Numbers">Numbers</label>
+            </div>
+            <div class="lp-radio">            
+                <input name="cbox" id="Symbols" checked class="4 checkbox" type="checkbox">
+                <label aria-valuetext="checked" class="cboxlabel" for="Symbols">Symbols</label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="button"><i class="copybtn fa-regular fa-copy"></i>Copy Password</div>
+  </div>
+
+  <script src="pass.js"></script>
+</body>
+
+</html>

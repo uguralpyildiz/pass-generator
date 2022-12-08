@@ -1,0 +1,221 @@
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #fff;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+    min-width: 350px;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 15px 0 0;
+    margin: 10px auto;
+  }
+
+  h2 {
+    padding: 5px 10px;
+    border-bottom: 3px solid rgb(233, 233, 233);
+    width: 90%;
+    margin: 25px auto;
+  }
+
+  h3 {
+    padding: 8px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #353535;
+    margin: 10px;
+  }
+
+
+
+
+  .customize-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #00000050;
+  }
+
+  .pass {
+    padding: 20px;
+    width: 100%;
+    font-size: 26px;
+    outline: 0;
+    
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #00000050;
+  }
+
+  .range {
+    margin: 5px;
+    width: 50%;
+  }
+
+  .number {
+    padding: 10px;
+    outline: 0;
+    border: 2px solid #6a93ec;
+    border-radius: 6px;
+    margin: 0 10px;
+    width: 80px;
+    font-size: 22px;
+  }
+
+  .input-range {
+    width: 100%;
+
+    margin: 15px 0;
+  }
+
+  .customize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    width: 100%;
+  }
+
+  .input-radio {
+    display: flex;
+    align-items: center;
+
+
+
+    padding: 0 0 15px;
+
+    width: 100%;
+  }
+
+
+
+  .checkbox {
+
+    margin: 15px;
+    width: 7mm;
+    height: 7mm;
+    border: 0.1mm solid rgb(175, 175, 175);
+    display: flex;
+
+  }
+
+
+
+
+
+
+  .button {
+    padding: 20px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f1f1f1;
+    border-radius: 11px;
+    background: #2758c0;
+    margin: 25px auto;
+    box-shadow: 0 0 15px #00000050;
+    cursor: pointer;
+  }
+
+  .lp-radio {
+
+    display: flex;
+    margin: auto;
+    align-items: center;
+    float: left;
+    width: 50%;
+  }
+
+  label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #353535;
+  }
+
+  .lp-checkbox {
+    width: 100%;
+
+
+  }
+
+  .pass-text{
+    position: relative;
+    top: -5px;
+    z-index: 99;
+    width: 80%;
+    transition: .3s ease;
+    padding: 3px;
+    border-radius: 11px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f1f1f1;
+    background: #198d0f;
+  }
+
+ 
+
+  .copy-restart-container{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+  }
+
+  .copy-btn, .restart-btn{
+    background: rgb(238, 238, 238);
+    color: #353535;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #00000050;
+    height: 50px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50px;
+    margin:0 5px;
+    cursor: pointer;
+    transition: .3s ease;
+  }
+
+ 
+   
+
+  .input-container{
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .copybtn{
+    margin-right: 10px;
+  }
+
+  .copy-btn:hover, .restart-btn:hover{
+    background: #dadada;
+  }
+
